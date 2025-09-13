@@ -14,6 +14,6 @@ app.include_router(user_router)
 app.include_router(album_router)
 app.include_router(image_router)
 
-@app.post("/")
+@app.get("/")
 def display():
     return{"message": "Hello World!"}
