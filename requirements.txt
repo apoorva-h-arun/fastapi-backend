@@ -1,0 +1,5 @@
+fastapi
+pydantic
+sqlalchemy
+pillow
+psycopg2-binary
